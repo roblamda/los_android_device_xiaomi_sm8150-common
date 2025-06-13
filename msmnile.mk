@@ -211,6 +211,7 @@ PRODUCT_PACKAGES += \
 
 # Input
 PRODUCT_PACKAGES += \
+    gpio-keys.kl \
     sm8150-tavil-snd-card_Button_Jack.kl \
     uinput-fortsense.kl \
     uinput-fpc.kl \
