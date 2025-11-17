@@ -10,13 +10,16 @@ vendor.camera.aux.packagelist=org.codeaurora.snapcam,com.android.camera,org.line
 # Charger
 ro.charger.disable_init_blank=true
 
+# CNE
+persist.vendor.cne.feature=1
+
+# Dalvik
+dalvik.vm.dex2oat64.enabled=true
+
 # Display
 debug.gralloc.gfx_ubwc_disable=0
 debug.sf.enable_hwc_vds=1
 persist.vendor.color.matrix=2
-
-# CNE
-persist.vendor.cne.feature=1
 
 # DPM
 persist.vendor.dpm.feature=1
@@ -36,13 +39,13 @@ vendor.iop.enable_uxe=0
 # Netflix
 ro.netflix.bsp_rev=Q855-16947-1
 
-# Perf
-ro.vendor.qti.core_ctl_max_cpu=4
-ro.vendor.qti.core_ctl_min_cpu=2
-
 # Netmgr
 persist.vendor.data.iwlan.enable=true
 persist.vendor.data.mode=concurrent
+
+# Perf
+ro.vendor.qti.core_ctl_max_cpu=4
+ro.vendor.qti.core_ctl_min_cpu=2
 
 # SSR
 persist.vendor.ssr.restart_level=ALL_ENABLE
